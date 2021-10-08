@@ -1,0 +1,67 @@
+class Person(){
+
+    Status status = new Status();
+    Wallet wallet = new Wallet();
+
+    Person(){}
+
+    void haveBreakfast(Food food){
+        int newHp = status.getHp() + food.getContainHp();
+        status.setHp(newHp);
+    }
+
+    boolean payBill(int billAmount){
+        return false;
+    }
+
+    public getTotal(){
+        return wallet.getTotal();
+    }
+}
+
+onclik::consume
+
+void consume(){
+    Person person = new Person();
+    Food food = new Food();
+
+    if(person.payBill(food.getPrice())){
+        person.haveBreakfast(food);
+    }
+}
+
+class Status{
+    int hp;
+
+    int getHp(){
+        return hp;
+    }
+
+    void setHp(int hp){
+        this.hp = hp;
+    }
+}
+
+class Wallet{
+    private int total;
+
+    int getTotal(){
+        return total;
+    }
+}
+
+class Food{
+    private int price;
+    private int containHp;
+
+    int getContainHp(){
+        return containHp;
+    }
+
+    int getPrice(){
+        return price;
+    }
+}
+
+
+person.getTotal();
