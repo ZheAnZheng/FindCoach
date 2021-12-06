@@ -28,8 +28,7 @@ Find Coach是參考線上課程所做出來的作品，也有在當中添加了�
 ## 登陸畫面
 ![登入畫面](https://user-images.githubusercontent.com/90257304/137955737-352f5abd-814d-40e0-97c8-581f951d6637.png)
 
-## 登入後
-![登入後](https://user-images.githubusercontent.com/90257304/138038115-cc243c12-9397-46e7-b020-d9ac08ffc805.png)
+
 
 ## 教練詳細資料
 ![教練祥資](https://user-images.githubusercontent.com/90257304/138038311-f08619f1-a185-47df-b73c-0a6acb78c6d3.png)
