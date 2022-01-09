@@ -1,0 +1,3 @@
+Picked up _JAVA_OPTIONS: -Xmx512M
+00:23:33.780 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+00:23:33.945 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000

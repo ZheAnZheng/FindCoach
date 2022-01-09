@@ -80,7 +80,7 @@ export default {
         );
         throw error;
       }
-      const expiresIn = 5000;
+      const expiresIn = 5000000;
       const expirationDate = new Date().getTime() + expiresIn;
 
       timer=setTimeout(function(){
